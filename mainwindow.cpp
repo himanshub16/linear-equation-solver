@@ -14,7 +14,7 @@ QLineEdit* MainWindow::newInputBox(QWidget *parent)
 {
     auto wid = new QLineEdit(parent);
     (*wid).setValidator(doubleValidator);
-    (*wid).setFixedWidth(100);
+    (*wid).setFixedWidth(60);
     return wid;
 }
 
@@ -25,6 +25,16 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+
+    ui->horizontalLayout->setSizeConstraint(QLayout::SetFixedSize);
+    ui->verticalLayout  ->setSizeConstraint(QLayout::SetFixedSize);
+    ui->inputAreaLayout ->setSizeConstraint(QLayout::SetFixedSize);
+    ui->grid            ->setSizeConstraint(QLayout::SetFixedSize);
+    ui->layoutB         ->setSizeConstraint(QLayout::SetFixedSize);
+    ui->layoutX         ->setSizeConstraint(QLayout::SetFixedSize);
+
+    this->window()->layout()->setSizeConstraint(QLayout::SetFixedSize);
+
     dimension = 0;
     gridMutex.unlock();
     doubleValidator = new QDoubleValidator();
