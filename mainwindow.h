@@ -31,6 +31,7 @@ private:
 
     QDoubleValidator *doubleValidator;
     QLineEdit *newInputBox(QWidget* parent);
+    void prepareAugmentedMatrix();
 
     Ui::MainWindow *ui;
     int dimension;
