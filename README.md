@@ -12,7 +12,7 @@ This is a Qt5 Application to solve a system of Linear equations.
 * Install Qt5 ( manually or using 'install-requirements.sh' ).
 * Compile the code ( using qmake or 'build.sh' ).
 * Execute the code ( ./linear-equation-solver, or 'build-and-run.sh' ).
-
+`
 ### Manual method:
 ```
 sudo apt-get install qtbase5-dev qt5-qmake;

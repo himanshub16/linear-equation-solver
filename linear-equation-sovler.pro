@@ -32,3 +32,9 @@ HEADERS  += mainwindow.h \
     equationsolver.h
 
 FORMS    += mainwindow.ui
+
+DISTFILES += \
+    README.md \
+    install-requirements.sh \
+    build.sh \
+    build-and-run.sh
