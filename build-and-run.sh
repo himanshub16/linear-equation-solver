@@ -2,4 +2,7 @@
 
 qmake
 make
+
 ./linear-equation-solver
+
+exit 0
