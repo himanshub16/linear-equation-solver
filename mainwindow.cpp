@@ -153,5 +153,9 @@ void MainWindow::prepareAugmentedMatrix()
 void MainWindow::on_solveBtn_clicked()
 {
     prepareAugmentedMatrix();
-    solver.solve(augMatrix, dimension);
+    try {
+       solver.solve(augMatrix, dimension);
+    } catch (...) {
+
+    }
 }
