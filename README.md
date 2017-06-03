@@ -1,4 +1,4 @@
-# himanshushekhar-vlabs
+# Linear Equation Solver
 
 This is a Qt5 Application to solve a system of Linear equations.
 
