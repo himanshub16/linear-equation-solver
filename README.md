@@ -9,9 +9,9 @@ This is a Qt5 Application to solve a system of Linear equations.
 
 ### Build instructions (for Ubuntu 16.04 and above):
 * The binary is included as the file "linear-linear-equation".
-* Install Qt5 ( manually or using 'install-requirements.sh' ).
-* Compile the code ( using qmake or 'build.sh' ).
-* Execute the code ( ./linear-equation-solver, or 'build-and-run.sh' ).
+* Install Qt5 ( manually or using `install-requirements.sh` ).
+* Compile the code ( using qmake or '`uild.sh` ).
+* Execute the code ( `./linear-equation-solver`, or `build-and-run.sh` ).
 `
 ### Manual method:
 ```
